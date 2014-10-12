@@ -1,0 +1,81 @@
+
+.wrap{
+	width: 700px;
+	margin: auto;
+}
+.logo a{
+	width: 308px;
+	height: 69px;
+	background: url('../images/logo.png') no-repeat;
+	float: left;
+	text-indent:-9999px;
+	display: block;
+}
+.menu1{
+	height: 67px;
+	width: 63px;
+	background: url('../images/menu-1.png');
+	float: left;
+	margin-left: 33px;
+}
+.menu2{
+	height: 73px;
+	width: 80px;
+	background: url('../images/menu-2.png');
+	float: left;
+}
+.menu3{
+	height: 72px;
+	width: 66px;
+	background: url('../images/menu-3.png');
+	float: left;
+}
+.menu4{
+	height: 71px;
+	width: 74px;
+	background: url('../images/menu-4.png');
+	float: left;
+}
+.menu5{
+	height: 71px;
+	width: 76px;
+	background: url('../images/menu-5.png');
+	float: left;
+}
+.content{
+	margin-bottom: 20px;
+}
+.left{
+	width: 400px;
+	float: left;
+
+}
+.right{
+	width: 240px;
+	height: 150px;
+	background: url('../images/demo.png');
+	float: right;
+	margin-top: 50px;
+}
+.p1{
+	width: 180px;
+	height: 149px;
+	float: left;
+	margin-left: 20px;
+}
+.p2{
+	width: 180px;
+	height: 149px;
+	float: left;
+	margin-left: 70px;
+
+}
+.p3{
+	width: 180px;
+	height: 149px;
+	float: left;
+	margin-left: 70px;
+}
+.clear{
+  clear:both;
+}
