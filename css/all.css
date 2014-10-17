@@ -1,7 +1,59 @@
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 .wrap{
-	width: 700px;
+	width: 800px;
 	margin: auto;
+}
+.header{
+	margin-bottom: 10px;
+	margin-top: 20px;
 }
 .logo a{
 	width: 308px;
@@ -11,70 +63,59 @@
 	text-indent:-9999px;
 	display: block;
 }
-.menu1{
-	height: 67px;
-	width: 63px;
-	background: url('../images/menu-1.png');
-	float: left;
-	margin-left: 33px;
-}
-.menu2{
-	height: 73px;
-	width: 80px;
-	background: url('../images/menu-2.png');
-	float: left;
-}
-.menu3{
-	height: 72px;
-	width: 66px;
-	background: url('../images/menu-3.png');
-	float: left;
-}
-.menu4{
-	height: 71px;
-	width: 74px;
-	background: url('../images/menu-4.png');
-	float: left;
-}
-.menu5{
-	height: 71px;
-	width: 76px;
-	background: url('../images/menu-5.png');
-	float: left;
+.menu a{
+	display: block;
+	float:right;
+	padding-top:10px; 
 }
 .content{
 	margin-bottom: 20px;
 }
+.left h2{
+	font-size: 30px;
+}
 .left{
 	width: 400px;
 	float: left;
+	padding-top: 40px;
 
 }
 .right{
-	width: 240px;
-	height: 150px;
-	background: url('../images/demo.png');
+	width: 250px;
 	float: right;
-	margin-top: 50px;
+	margin-top: 30px;
+	box-shadow: 0px 10px 10px 2px #888888;
 }
 .p1{
-	width: 180px;
-	height: 149px;
+	width: 200px;
 	float: left;
-	margin-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+	border:1px solid;
+	border-color: gray;
+	border-radius:25px;
 }
 .p2{
-	width: 180px;
-	height: 149px;
+	width: 200px;
 	float: left;
-	margin-left: 70px;
-
+	text-align: center;
+	margin-left: 95px;
+	padding-top: 10px;
+	border:1px solid;
+	border-color: gray;
+	border-radius:25px;
 }
 .p3{
-	width: 180px;
-	height: 149px;
-	float: left;
-	margin-left: 70px;
+	width: 200px;
+	float: right;
+	text-align: center;
+	padding-top: 10px;
+	border:1px solid;
+	border-color: gray;
+	border-radius:25px;
+}
+.footer h3{
+	font-size: 20px;
 }
 .clear{
   clear:both;
